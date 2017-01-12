@@ -1,9 +1,7 @@
-import ctypes
-import threading
-import sys
-import os
-import errno
-
+#!/usr/bin/python
+# Pure Python Tiny Packet Snifer
+# Author: Alexander Rymdeko-Harvey
+# Twitter: @Killswitch-GUI
 
 # BSD 3-Clause License
 
@@ -34,6 +32,12 @@ import errno
 # CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+import ctypes
+import threading
+import sys
+import os
+import errno
 
 
 OSX_PCAP_DYLIB = '/usr/lib/libpcap.A.dylib'
