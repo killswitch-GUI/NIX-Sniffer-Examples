@@ -154,7 +154,7 @@ if not (pcap.pcap_close(pcap_handle)):
         print "* Device handle failed to close!"
 if not IN_MEMORY:
     f = open(PCAP_FILENAME, 'rb')
-    data = base64.b64encode(f.read())
+    #data = base64.b64encode(f.read())
     f.close()
-    os.system('rm -f %s' % PCAP_FILENAME)
-    sys.stdout.write(data)
+    #os.system('rm -f %s' % PCAP_FILENAME)
+    #sys.stdout.write(data)
